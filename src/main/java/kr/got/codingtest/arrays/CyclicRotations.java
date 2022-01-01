@@ -6,7 +6,7 @@ package kr.got.codingtest.arrays;
  * [3, 8, 9, 7, 6], 3이 주어질 경우 결과값은 [9, 7, 6, 3, 8]
  * 제약사항: 횟수는 0~100, int 배열의 요소는 -1000~1000
  */
-public class CyclicRatations {
+public class CyclicRotations {
     public static void main(String[] args) {
         int[] result = solution(new int[]{3, 8, 9, 7, 6}, 3);
         int[] result2 = solutionShorter(new int[]{3, 8, 9, 7, 6}, 3);
