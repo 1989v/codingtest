@@ -17,6 +17,9 @@ public class PermCheck {
         System.out.println(result);
     }
 
+    /**
+     * 내 솔루션 - 83% 정답..
+     */
     // 순열합을 구하는 공식은 'N * (N+1) /2'임을 활용하여 순열여부를 확인.
     public static int solution(int[] values) {
         int max = 0;
